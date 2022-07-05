@@ -17,13 +17,11 @@ const Home = () => {
                   <div className="col-lg-5 col-md-6">
                     <div className="slider_detail-box">
                       <h1>
-                        Start <br />
-                        Business with <br />
-                        Our Company
+                        Smart, fast, affordable <br />
+                        Delivering business solutions for the web and mobile world
                       </h1>
                       <p>
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi
+                        deliver IT solutions that fit your business
                       </p>
                       <div className="btn-box">
                         <a href="" className="btn-1">
@@ -99,14 +97,13 @@ const Home = () => {
               </div>
             </div>
           </div>
-
         </div>
       </section>
       <section class="welcome_section layout_padding">
         <div class="container">
           <div class="custom_heading-container">
             <h2>
-              Welcome To Our Company
+              Welcome To Techninow
             </h2>
           </div>
           <div class="layout_padding2">
@@ -128,7 +125,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-
         </div>
       </section>
       <section class="service_section">
@@ -139,9 +135,9 @@ const Home = () => {
             </h2>
           </div>
           <div class="service_container layout_padding2">
-            <div class="service_box">
+            <div class="service_box h-1">
               <div class="img-box">
-                <img src="images/s-1.jpg" alt="" />
+                <img src="images/webDevelopement2.jpg" alt="" />
               </div>
               <div class="detail-box">
                 <h4>
@@ -156,22 +152,7 @@ const Home = () => {
             </div>
             <div class="service_box">
               <div class="img-box">
-                <img src="images/s-2.jpg" alt="" />
-              </div>
-              <div class="detail-box">
-                <h4>
-                  Native Mobile  <br />
-                  App Developement
-                </h4>
-                <p>
-                  have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even
-                  slightly believable. If you are
-                </p>
-              </div>
-            </div>
-            <div class="service_box">
-              <div class="img-box">
-                <img src="images/s-3.jpg" alt="" />
+                <img src="images/eCommerce.jpg" alt="" />
               </div>
               <div class="detail-box">
                 <h4>
@@ -185,9 +166,25 @@ const Home = () => {
                 </p>
               </div>
             </div>
+            <div class="service_box ">
+              <div class="img-box">
+                <img src="/images/Mobileap.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Native Mobile  <br />
+                  App Developement
+                </h4>
+                <p>
+                  have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even
+                  slightly believable. If you are
+                </p>
+              </div>
+            </div>
+          
             <div class="service_box">
               <div class="img-box">
-                <img src="images/s-2.jpg" alt="" />
+                <img src="images/Backendapi.jpg" alt="" />
               </div>
               <div class="detail-box">
                 <h4>
@@ -202,12 +199,12 @@ const Home = () => {
             </div>
             <div class="service_box">
               <div class="img-box">
-                <img src="images/s-2.jpg" alt="" />
+                <img src="images/Linkedin.jpg" alt="" />
               </div>
               <div class="detail-box">
                 <h4>
 
-                  Grow your <br/> linkedin Account
+                  Grow your <br /> linkedin Account
                 </h4>
                 <p>
                   have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even
@@ -217,7 +214,7 @@ const Home = () => {
             </div>
             <div class="service_box">
               <div class="img-box">
-                <img src="images/s-3.jpg" alt="" />
+                <img src="images/247.jpg" alt="" />
               </div>
               <div class="detail-box">
                 <h4>

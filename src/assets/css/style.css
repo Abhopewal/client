@@ -226,7 +226,21 @@ a:focus {
   line-height: 0.65;
   font-family: 'Lobster', cursive;
 }
+.logo-4 h6 {
+  color:#e7cd3b;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 0.95;
+  font-family: 'Lobster', cursive;
+}
 
+.logo-4 h2 {
+  color:#e7cd3b;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 0.95;
+  font-family: 'Lobster', cursive;
+}
 .slider_section .carousel_btn-container .carousel-control-prev:hover,
 .slider_section .carousel_btn-container .carousel-control-next:hover {
   background-color: #feb543;

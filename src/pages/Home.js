@@ -6,9 +6,9 @@ const Home = () => {
       <section className=" slider_section mt-5">
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active">01</li>
+            {/* <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active">01</li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li> */}
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
@@ -25,86 +25,31 @@ const Home = () => {
                       </p>
                       <div className="btn-box">
                         <a href="" className="btn-1">
-                          Read More
+                          For Satisfaction Read More
                         </a>
                       </div>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="slider_img-box">
-                      <img src="images/slider-img.png" alt="" />
+                      <img src="images/slider-img1.png" alt="" />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-5 col-md-6">
-                    <div className="slider_detail-box">
-                      <h1>
-                        Start <br />
-                        Business with <br />
-                        Our Company
-                      </h1>
-                      <p>
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi
-                      </p>
-                      <div className="btn-box">
-                        <a href="" className="btn-1">
-                          Read More
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="slider_img-box">
-                      <img src="images/slider-img.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-5 col-md-6">
-                    <div className="slider_detail-box">
-                      <h1>
-                        Start <br />
-                        Business with <br />
-                        Our Company
-                      </h1>
-                      <p>
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi
-                      </p>
-                      <div className="btn-box">
-                        <a href="" className="btn-1">
-                          Read More
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="slider_img-box">
-                      <img src="images/slider-img.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
       <section class="welcome_section layout_padding">
         <div class="container">
           <div class="custom_heading-container">
-            <h2>
-              Welcome To Techninow
-            </h2>
+            <span className='logo-holder logo-4'>
+              <h6>
+                Welcome To Techninow
+              </h6>
+            </span>
           </div>
           <div class="layout_padding2">
             <div class="img-box">
@@ -112,11 +57,8 @@ const Home = () => {
             </div>
             <div class="detail-box">
               <p>
-                dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                Techninow is a business solution IT Industry which provides world class IT solution to clients. As a leading software development company, we deliver custom software and mobile apps, carry out in-depth analyses to provide web hosting automations, ecommerce and web development solutions.
+                Our core values revolve around 3 key principles- result Honesty, Accountability.
               </p>
               <div>
                 <a href="">
@@ -130,7 +72,7 @@ const Home = () => {
       <section class="service_section">
         <div class="container">
           <div class="custom_heading-container">
-            <h2>
+            <h2 id="out_ser" className='logo-4'>
               Our Services
             </h2>
           </div>
@@ -145,8 +87,7 @@ const Home = () => {
                   Developement
                 </h4>
                 <p>
-                  have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even
-                  slightly believable. If you are
+                  In web development We offer services those in trends. that keep your application, website or software up-to-date with the current trends and designs that are attracting users.
                 </p>
               </div>
             </div>
@@ -156,13 +97,12 @@ const Home = () => {
               </div>
               <div class="detail-box">
                 <h4>
-                  Ecommerce
+                  Custom Ecommerce
                   <br />
                   Development
                 </h4>
                 <p>
-                  have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even
-                  slightly believable. If you are
+                  Techninow build versatile e-commerce solutions reinforced with robust backends, engaging interfaces, and seamless integrations. We offer e-commerce store development for small and big businesses.
                 </p>
               </div>
             </div>
@@ -172,16 +112,15 @@ const Home = () => {
               </div>
               <div class="detail-box">
                 <h4>
-                  Native Mobile  <br />
+                  Mobile  <br />
                   App Developement
                 </h4>
                 <p>
-                  have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even
-                  slightly believable. If you are
+                  Being one of the best  mobile app development Companies in the industry, we know what it takes to convert your vision into reality.
                 </p>
               </div>
             </div>
-          
+
             <div class="service_box">
               <div class="img-box">
                 <img src="images/Backendapi.jpg" alt="" />
@@ -192,8 +131,7 @@ const Home = () => {
                   Backend Apis
                 </h4>
                 <p>
-                  have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even
-                  slightly believable. If you are
+                  We are the top pioneers in building backend APIs for small IT companies, freelancers and any type of use.
                 </p>
               </div>
             </div>
@@ -207,8 +145,7 @@ const Home = () => {
                   Grow your <br /> linkedin Account
                 </h4>
                 <p>
-                  have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even
-                  slightly believable. If you are
+                  If you are a creative digital marketer,employer and employee. you want grow you linkedin account. we provide  solution for this with help of api automation.
                 </p>
               </div>
             </div>
@@ -219,18 +156,17 @@ const Home = () => {
               <div class="detail-box">
                 <h4>
 
-                  24/7 Hours Support
+                  15/5 Hours Support
                 </h4>
                 <p>
-                  have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even
-                  slightly believable. If you are
+                  If you are working with us we provide 15/5 hourly support.
                 </p>
               </div>
             </div>
           </div>
           <div>
             <a href="">
-              Read More
+              Portfolio
             </a>
           </div>
         </div>
@@ -261,7 +197,7 @@ const Home = () => {
 
         </div>
       </section>
-      <section class="why_section layout_padding ">
+      {/* <section class="why_section layout_padding ">
         <div class="container ">
           <div class="custom_heading-container">
             <h2>
@@ -329,8 +265,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section class="client_section layout_padding">
+      </section> */}
+      {/* <section class="client_section layout_padding">
         <div class="container">
           <h2>
             What Our Clients Says
@@ -425,7 +361,7 @@ const Home = () => {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
     </>
   )

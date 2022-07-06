@@ -66,9 +66,7 @@
 
 @media (max-width: 768px) {
 
-
-
-
+  .slider_img-box img{ display: none;}
   .slider_section .carousel_btn-container {
     display: none;
   }
@@ -155,16 +153,20 @@
 }
 
 @media (max-width: 576px) {
-
-
   .slider_section ol.carousel-indicators {
     right: 0;
   }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+  #out_ser{ 
+  color:#e7cd3b;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 0.95;
+  font-family: 'Lobster', cursive;}}
 
-@media (max-width: 420px) {}
+@media (max-width: 420px) { }
 
 @media (max-width: 360px) {}
 

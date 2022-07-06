@@ -93,7 +93,7 @@ const Home = () => {
             </div>
             <div class="service_box">
               <div class="img-box">
-                <img src="images/eCommerce.jpg" alt="" />
+                <img src="images/ECommerce.jpg" alt="" />
               </div>
               <div class="detail-box">
                 <h4>
@@ -184,9 +184,7 @@ const Home = () => {
             </div>
             <div class="detail-box">
               <p>
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
-                some form, by injected humour, or randomised words which don&#39;t look even slightly believable. I
-              </p>
+                We are professionals in software industry. If you have any business problem Techinow provide best business solution.        </p>
               <div>
                 <a href="">
                   Read More

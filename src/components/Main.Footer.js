@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const MainFooter = () => {
     return (
@@ -131,14 +132,13 @@ const MainFooter = () => {
                         </div>
                         <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline">
                             <div class="social-box">
-                                <a href="">
+                                <a href="https://www.facebook.com/Techninow/">
                                     <img src="images/fb.png" alt="" />
                                 </a>
-
                                 <a href="">
                                     <img src="images/twitter.png" alt="" />
                                 </a>
-                                <a href="">
+                                <a href="https://www.linkedin.com/company/82073958/admin/">
                                     <img src="images/linkedin1.png" alt="" />
                                 </a>
                                 <a href="">
@@ -165,7 +165,7 @@ const MainFooter = () => {
                 <section class="container-fluid footer_section">
                     <p>
                         © 2022 All Rights Reserved By
-                        <a href="https://techninow/">Techninow </a>
+                        <a href="https://www.techninow.com/">Techninow </a>
                     </p>
                 </section>
 

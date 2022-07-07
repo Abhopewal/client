@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const MainHeader = () => {
 
@@ -27,7 +28,7 @@ const MainHeader = () => {
                                                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="about.html">About </a>
+                                                <Link class="nav-link" to="/blog">Blog</Link>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="service.html">Services </a>
